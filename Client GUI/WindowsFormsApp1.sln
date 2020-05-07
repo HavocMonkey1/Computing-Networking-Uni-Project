@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{7E782165-1279-49C7-A2B0-B722C9A329C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client GUI", "Client GUI\Client GUI.csproj", "{7E782165-1279-49C7-A2B0-B722C9A329C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "..\Server\Server\Server.csproj", "{BDB615F0-F3A3-4BF3-B4F6-9EAE8E5B2446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{7E782165-1279-49C7-A2B0-B722C9A329C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E782165-1279-49C7-A2B0-B722C9A329C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E782165-1279-49C7-A2B0-B722C9A329C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB615F0-F3A3-4BF3-B4F6-9EAE8E5B2446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB615F0-F3A3-4BF3-B4F6-9EAE8E5B2446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB615F0-F3A3-4BF3-B4F6-9EAE8E5B2446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB615F0-F3A3-4BF3-B4F6-9EAE8E5B2446}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

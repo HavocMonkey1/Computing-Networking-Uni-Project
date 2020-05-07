@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApp1
+﻿namespace Client_GUI
 {
     partial class Form1
     {

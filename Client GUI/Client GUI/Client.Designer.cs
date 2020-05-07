@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace WindowsFormsApp1
+namespace Client_GUI
 {
     partial class Client
     {

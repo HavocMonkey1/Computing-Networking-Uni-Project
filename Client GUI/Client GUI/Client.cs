@@ -1,6 +1,6 @@
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace Client_GUI
 {
     public partial class Client : Form
     {
