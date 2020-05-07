@@ -17,3 +17,13 @@ E:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateR
 E:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 E:\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Client.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Client.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
