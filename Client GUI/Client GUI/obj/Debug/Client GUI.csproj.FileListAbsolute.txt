@@ -1,0 +1,10 @@
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\bin\Debug\Client GUI.exe.config
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\bin\Debug\Client GUI.exe
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\bin\Debug\Client GUI.pdb
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client GUI.csprojAssemblyReference.cache
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client_GUI.Client.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client_GUI.Form1.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client_GUI.Properties.Resources.resources
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client GUI.csproj.GenerateResource.cache
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client GUI.exe
+C:\Users\matth\OneDrive\Documents\Uni\2nd Year\2nd Semmester\Computing & Networking\Client GUI\Client GUI\obj\Debug\Client GUI.pdb
