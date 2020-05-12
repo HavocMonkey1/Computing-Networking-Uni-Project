@@ -29,31 +29,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.UsernameField = new System.Windows.Forms.TextBox();
+            this.PasswordField = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.LoginButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // UsernameField
             // 
-            this.textBox1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox1.Location = new System.Drawing.Point(40, 63);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(580, 28);
-            this.textBox1.TabIndex = 0;
+            this.UsernameField.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.UsernameField.Location = new System.Drawing.Point(40, 63);
+            this.UsernameField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.UsernameField.Name = "UsernameField";
+            this.UsernameField.Size = new System.Drawing.Size(580, 28);
+            this.UsernameField.TabIndex = 0;
             // 
-            // textBox2
+            // PasswordField
             // 
-            this.textBox2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox2.Location = new System.Drawing.Point(40, 169);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(580, 28);
-            this.textBox2.TabIndex = 1;
+            this.PasswordField.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.PasswordField.Location = new System.Drawing.Point(40, 169);
+            this.PasswordField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.PasswordField.Name = "PasswordField";
+            this.PasswordField.PasswordChar = '*';
+            this.PasswordField.Size = new System.Drawing.Size(580, 28);
+            this.PasswordField.TabIndex = 1;
             // 
             // label1
             // 
@@ -96,8 +96,8 @@
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.PasswordField);
+            this.Controls.Add(this.UsernameField);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -112,8 +112,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button LoginButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox PasswordField;
+        private System.Windows.Forms.TextBox UsernameField;
 
         #endregion
     }

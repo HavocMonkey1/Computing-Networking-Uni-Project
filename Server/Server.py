@@ -3,10 +3,10 @@ import LoginHandler
 import UserControlHandler
 import FileHandler
 
-class SuperHandler(BaseHTTPRequestHandler):
+class SuperHandler(BaseHTTPRequestHandler):#the super handler which handles all request passing them on to the relevant handlers
     def do_GET(self):
         if self.path == "/Login":
-            LoginHandler.processLogin(self)
+            LoginHandler.processLogin(self)#passes the /Login requests onto the Login Handler script
         elif self.path == "/FileHandler":
             pass
         elif self.path == "/UserControl":

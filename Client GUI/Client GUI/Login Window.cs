@@ -24,26 +24,27 @@ namespace Client_GUI
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
-            /*//temp request demo 
+            //Sends GET request to the server in order to validate the login details
             {
-                using (var client =  new TcpClient( hostname: "127.0.0.1", port: 80))
+                using (var client =  new TcpClient( hostname: "127.0.0.1", port: 8000))
                 {
                     using (var stream = client.GetStream())
                     using(var writer = new StreamWriter(stream))
                     using (var reader = new StreamReader(stream))
                     {
                         writer.AutoFlush = true;
-                        writer.WriteLine("GET /login HTTP/1.1");/*Get is the verb, / is the root directory, HTTP/1.1 is the protocol#1#
-                        writer.WriteLine("Host: 127.0.0.1:80");/*the address of the server#1#
+                        writer.WriteLine("GET /Login HTTP/1.1");//Get is the verb, /Login is the directory handling the login process, HTTP/1.1 is the protocol
+                        writer.WriteLine("Username: " +UsernameField.Text);//Sends a header with the username info gathered from the UsernameField text box
+                        writer.WriteLine("Password: " + PasswordField.Text);//Sends a header with the password info gathered from the PasswordField text box
                         //Double blank line signifies end of header in a HTTP request
                         writer.WriteLine();
                         writer.WriteLine();
 
-                        MessageBox.Show(reader.ReadToEnd());/*This create a message box and dumps the output from the variable reader#1#
+                        MessageBox.Show(reader.ReadToEnd());//This create a message box and dumps the output from the variable reader#1#
                     }
                     
                 }
-            }*/
+            }
             Client clientwindow = new Client();
             this.Hide();
             clientwindow.Show();
