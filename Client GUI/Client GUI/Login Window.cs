@@ -39,16 +39,24 @@ namespace Client_GUI
                         //Double blank line signifies end of header in a HTTP request
                         writer.WriteLine();
                         writer.WriteLine();
+                        
+                        string[] lines = reader.ReadToEnd().Split('\n');
+                        if (lines[0].Contains("401"))
+                        {
+                            MessageBox.Show(lines[6]);//This create a message box and dumps the output from the variable reader    
+                        }
 
-                        MessageBox.Show(reader.ReadToEnd());//This create a message box and dumps the output from the variable reader#1#
+                        if (lines[0].Contains("200"))
+                        {
+                            
+                            Client clientwindow = new Client();
+                            clientwindow.SetToken(lines[6]);
+                            this.Hide();
+                            clientwindow.Show();
+                        }
                     }
-                    
                 }
             }
-            Client clientwindow = new Client();
-            this.Hide();
-            clientwindow.Show();
         }
-        
     }
 }
