@@ -30,7 +30,7 @@ def processLogin(request):#the function for handling login requests
         DatabaseInterface.dbCursor.execute("INSERT INTO sessions (Token, UserID, Timeout) VALUES (\""+Token+"\", "+str(UserID)+", \""+Timeout +"\")")#Creates the query which enters the data into the sessions table in the database
         DatabaseInterface.dbConnection.commit()#Actions the above query, writting it to the database
 
-        request.send_response(200)
+        request.send_response(200)#returns an OK response with the Token in the body
         request.send_header('Content-type', 'text/plain')
         request.send_header('Content-length', len(Token))
         request.end_headers()
@@ -39,9 +39,10 @@ def processLogin(request):#the function for handling login requests
 
 
 
-    else:
+    else:#if the user isn't authorized then it returns a 401 error with the error message in the body then exits the function
         request.send_response(401)
         request.send_header('Content-type', 'text/plain')
         request.send_header('Content-length', len(error_message))
         request.end_headers()
         request.wfile.write((error_message).encode())
+        return
