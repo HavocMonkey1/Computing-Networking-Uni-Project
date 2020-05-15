@@ -9,6 +9,6 @@ dbConnection = mysql.connector.connect(#the login details for talking to the dat
 
 dbCursor = dbConnection.cursor(buffered=True)
 
-def SanitiseInput(input):#a function to sanatise the input to protect against SQL injection which allows people to run queries which they're not authorised to run
-    #todo actually sanitise inputs to protect against SQL injection
-    return input
+def SanitiseInput(input):#a function to sanitise the input to protect against SQL injection which allows people to run queries which they're not authorised to run
+    input = str(input).replace('\"',"").replace("\'", "")
+    return str(input)

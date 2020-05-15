@@ -43,7 +43,8 @@ namespace Client_GUI
                         string[] lines = reader.ReadToEnd().Split('\n');
                         if (lines[0].Contains("401"))
                         {
-                            MessageBox.Show(lines[6]);//This create a message box and dumps the output from the variable reader    
+                            MessageBox.Show(lines[6]);//This create a message box and dumps the output from the variable reader
+                            return;    
                         }
 
                         if (lines[0].Contains("200"))
@@ -51,6 +52,7 @@ namespace Client_GUI
                             
                             Client clientwindow = new Client();
                             clientwindow.SetToken(lines[6]);
+                            clientwindow.NotesList();
                             this.Hide();
                             clientwindow.Show();
                         }
