@@ -47,10 +47,10 @@ namespace Client_GUI
                             return;    
                         }
 
-                        if (lines[0].Contains("200"))
+                        if (lines[0].Contains("200"))//if ok
                         {
                             
-                            Client clientwindow = new Client();
+                            Client clientwindow = new Client();//launch new window and hide this window, also triggers the Noteslist to refresh so that it has content to build the item with
                             clientwindow.SetToken(lines[6]);
                             clientwindow.NotesList();
                             this.Hide();
